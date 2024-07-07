@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===== GLOBAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+.primary-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 32px 21px 32px;
+    background: rgb(82, 195, 3);
+}
+
+
+/* ===== BANNER ===== */
+#banner {
+    height: 900px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 1023px;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner .banner-content .subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+#banner .banner-content .title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+#banner .banner-content .description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+
+/* ===== ON SALE ===== */
+#sales .sales-container {
+    color: rgb(16, 16, 16);
+    width: 1320px;
+    margin: 167px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sales .sales-content {
+    margin-bottom: 64px;
+}
+
+#sales .sales-container .titles {
+    width: 691px;
+    margin: auto;
+    color: rgb(16, 16, 16);
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sales-container .titles .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+
+.sales-container .titles .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+
+.sales-content .product-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card .card-item-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 14px 32px 14px 32px;
+    background-color: rgba(82, 195, 3, 0.15);
+    margin: 32px;
+}
+
+.card .card-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.card .card-desc {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+
+/*===== ABOUT US =====*/
+#about-us {
+    display: flex;
+}
+
+#about-us .about-us-img {
+    height: 670px;
+    background-image: url(../assets/foods.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+
+.about-us-content .about-title {
+    width: 805px;
+    margin-bottom: 48px;
+}
+
+.about-us-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.about-us-content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+.about-us-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 30px 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.follow-links {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00B2FF), to(#006AFF));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-x-twitter {
+    color: #000000;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-pinterest {
+    color: #E13138;
+}
+
+/*===== CARD =====*/
+#pizza-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+
+/*===== FOOTER =====*/
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#footer-container::before {
+    content: "";
+    background-image: url('../assets/social-bg.png');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1932px;
+    height: 671px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#footer-container>.about-us-content {
+    margin: 135px 300px;
+}
